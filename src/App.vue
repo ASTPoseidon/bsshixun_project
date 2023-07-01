@@ -2,7 +2,7 @@
   <!-- 创建一个布局 -->
   <a-layout id="components-layout-demo-custom-trigger" style="height: auto">
     <!-- 创建一个可折叠的侧边栏 -->
-    <a-layout-sider v-model="collapsed" :trigger="null" collapsible="">
+    <a-layout-sider v-model="collapsed" breakpoint="lg" width="150">
       <!-- logo区域 -->
       <div class="logo">
       </div>

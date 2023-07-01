@@ -18,16 +18,16 @@ export default {
 <template>
   <div style="padding-left: 5%;padding-top: 1%">
     <a-row :gutter="30">
-      <a-col :span="12">
+      <a-col :span="30">
         <a-statistic :key="1" :title=list[0].title :value=list[0].value />
       </a-col>
     </a-row>
     <br><br>
-    <a-row :gutter="250">
-      <a-col :span="12">
+    <a-row style="display: flex">
+      <a-col style="width: 300px">
         <a-statistic :key="2" :title=list[1].title :value=list[1].value />
       </a-col>
-      <a-col :span="12">
+      <a-col style="width: 300px">
         <a-statistic :key="3" :title=list[2].title :value=list[2].value />
       </a-col>
     </a-row>
