@@ -19,16 +19,16 @@ export default {
   <div style="padding-left: 5%;padding-top: 1%">
     <a-row :gutter="30">
       <a-col :span="12">
-        <a-statistic :key="1" :title=list[0].title :value=list[0].value/>
+        <a-statistic :key="1" :title=list[0].title :value=list[0].value />
       </a-col>
     </a-row>
     <br><br>
     <a-row :gutter="250">
       <a-col :span="12">
-        <a-statistic :key="2" :title=list[1].title :value=list[1].value/>
+        <a-statistic :key="2" :title=list[1].title :value=list[1].value />
       </a-col>
       <a-col :span="12">
-        <a-statistic :key="3" :title=list[2].title :value=list[2].value/>
+        <a-statistic :key="3" :title=list[2].title :value=list[2].value />
       </a-col>
     </a-row>
   </div>
