@@ -11,7 +11,7 @@
       <a-menu :default-selected-keys="['1']" mode="inline" theme="dark">
         <!-- 创建一个菜单项 -->
         <a-menu-item key="1">
-          <router-link to="/"/>
+            <router-link to="/"/>
           <!-- 菜单项图标 -->
           <a-icon type="home"/>
           <!-- 菜单项文本 -->
