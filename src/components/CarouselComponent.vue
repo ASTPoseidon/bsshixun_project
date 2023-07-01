@@ -51,6 +51,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .ant-carousel >>> .custom-slick-arrow {

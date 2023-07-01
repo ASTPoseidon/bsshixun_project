@@ -5,13 +5,12 @@
     <a-layout-sider v-model="collapsed" :trigger="null" collapsible="">
       <!-- logo区域 -->
       <div class="logo">
-        河北农业大学
       </div>
       <!-- 创建一个暗色主题的内联菜单 -->
       <a-menu :default-selected-keys="['1']" mode="inline" theme="dark">
         <!-- 创建一个菜单项 -->
         <a-menu-item key="1">
-            <router-link to="/"/>
+          <router-link to="/"/>
           <!-- 菜单项图标 -->
           <a-icon type="home"/>
           <!-- 菜单项文本 -->
