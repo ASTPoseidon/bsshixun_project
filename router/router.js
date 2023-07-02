@@ -13,12 +13,12 @@ const routes = [
     {
         path: '/', // 路由路径
         name: 'HomeView', // 路由名称
-        component: () => import('./pages/HomeView.vue')
+        component: () => import('@/pages/HomeView.vue')
     },
     {
         path: '/Details',
         name: 'DetailsView',
-        component: () => import('./pages/DetailsView.vue')
+        component: () => import('@/pages/DetailsView.vue')
     }
 ];
 

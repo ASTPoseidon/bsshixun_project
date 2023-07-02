@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router';
+import router from '../router/router';
 import Antd from 'ant-design-vue'
 import VueViewer, {directive as viewerDirective} from 'v-viewer';
 import 'viewerjs/dist/viewer.css';
